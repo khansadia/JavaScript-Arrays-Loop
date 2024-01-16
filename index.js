@@ -1,4 +1,4 @@
-/* //You can also get the length of the array like this:
+/* /* //You can also get the length of the array like this:
 const numbers = [1, 2, 3, 7, 10, 57, 4];
 
 const length = numbers.length;
@@ -54,3 +54,38 @@ const city = cities.shift();
 console.log(); //["Göteborg"]
 console.log(city);
 
+
+// loops   for loop
+
+const array = [5, 10, 15, 20];
+
+for (let i = 0; i < array.length; i++) {
+  console.log(array[i]);
+  // console.log(array.at(i));
+}
+
+// ## For..of Loop (foreach)
+const names = ["Niklas", "Henrik", "Erik", "Sofia"];
+
+for (let name of names) {
+  console.log(name);
+}
+
+// while loop
+
+let x = 1;
+
+while (x < 100) {
+  console.log(x);
+  x *= 2;
+}
+
+// ### Do..While Loop
+  
+  
+  let y = 1;
+  
+  do {
+    console.log(y);
+    y *= 2;
+  } while (y < 100);
